@@ -1,0 +1,25 @@
+<form method="post" action="http://www.example.org/register">
+<label for="username">create a username:</label>
+<input type="text" id="username" onblur="checkUsername()"/>
+<div id="feedback"></div>
+<label for="password">create a password</label>
+<input type="password" id="password"/>
+<input type="submit" value="sign up"/>
+
+</form>
+<script>
+function checkUsername()
+var elmsg=document.getElementById('feedback');
+alert('hi');
+if(this.value.length<5){
+    elmsg.innerText='username must be 5 characters or more';
+}
+else{
+    elmsg.textContent='';
+
+}
+
+var elUsername=document.getElementById('username');
+elUsername.addEventListener('blur',checkUsername);
+
+</script>

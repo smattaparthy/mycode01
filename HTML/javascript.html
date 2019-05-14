@@ -1,0 +1,41 @@
+<html>
+<h1>buy groceries</h1>
+<body>
+
+<ul>
+
+
+
+<li id="one" class="hot">
+<em>fresh</em>
+figs</li>
+
+<li id="two" class="hot"> pine nuts</li>
+<li id="three"class="hot">honey</li>
+<li id="four">balsamic vinegar</li>
+</ul>
+</body>
+</html>
+
+<script>
+   var firstitem=document.getElementById('one');
+   if(firstitem.hasAttribute('class')){
+       var attr=firstitem.getAttribute('class');
+       var el=document.getElementById('one');
+       el.innerHTML='<p the first item has a classname:'+attr+'</p>';
+   }
+
+
+</script>
+<style type="text/css">
+    ul li.hot{
+        background-color: darkred;
+    }
+    ul li.cool{
+        background-color: aqua;
+    }
+    ul li.complete{
+        background-color:darkviolet;
+    }
+    
+    </style>
