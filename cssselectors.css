@@ -1,0 +1,22 @@
+
+h1{
+    font-family:"courier-new",monospace;
+}
+i{
+    color:green;
+}
+b{
+    color:pink;
+}
+p b{
+    color:red!important;
+}
+p b{
+    color:violet;
+}
+p#intro{
+    font-size:10%;
+}
+p{
+    font-size:100;
+}
