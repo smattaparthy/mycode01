@@ -1,0 +1,32 @@
+<html>
+<h1>
+Phscale</h1>
+<p>
+14.0 very alkaline</p>
+<p>
+13.0</p>
+<p>
+12.0</p>
+<p>
+11.0</p>
+<p>10.0</p>
+<p>9</p>
+<p>8</p>
+<p>7 neutral</p>
+<p>6</p>
+<p>5</p>
+<p>4</p>
+<p>3</p>
+<p>2</p>
+<p>1</p>
+<p>0.0 very alkaline</p>
+<style type="text/css">
+body{
+    backgground-color:silver;
+    color:white;
+    padding:20px;
+    font-family:Arial,Verdana,sans-serif;
+}
+
+
+
